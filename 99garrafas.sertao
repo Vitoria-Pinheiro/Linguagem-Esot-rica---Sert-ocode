@@ -1,0 +1,24 @@
+Ô promessa sem jeito
+
+Reza: Programa das 99 Garrafas de Cachaça
+Reza: Versão nordestina do clássico
+
+Patrimônio (Gato) garrafas;
+Rumo garrafas = 99;
+
+Via Sacra (garrafas > 0)
+    Pregação garrafas;
+    Pregação "garrafas de cachaça na parede";
+    Pregação garrafas;
+    Pregação "garrafas de cachaça";
+    Pregação "Se uma cair e quebrar no chão";
+    Rumo garrafas = garrafas - 1;
+    Pregação garrafas;
+    Pregação "garrafas de cachaça na parede";
+    Pregação "---";
+Passar a Régua
+
+Pregação "Não tem mais cachaça!";
+Pregação "Vou ter que ir no bodega do seu Zé!";
+
+Não sei, só sei que foi assim

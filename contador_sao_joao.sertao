@@ -1,0 +1,123 @@
+Ô promessa sem jeito
+
+Reza: Contador de dias até São João
+Reza: Descubra quantos dias faltam para a festa!
+
+Patrimônio (Gato) dia_atual;
+Patrimônio (Gato) mes_atual;
+Patrimônio (Gato) ano_atual;
+Patrimônio (Gato) dias_faltam;
+Patrimônio (Gato) dias_passados;
+
+Pregação "🎪 === CONTADOR DE DIAS ATÉ SÃO JOÃO === 🎪";
+Pregação "";
+Pregação "São João é comemorado todo dia 24 de junho!";
+Pregação "";
+
+Pregação "Digite o dia atual (1-31):";
+Pergunta do Bispo dia_atual;
+
+Pregação "Digite o mês atual (1-12):";
+Pergunta do Bispo mes_atual;
+
+Pregação "Digite o ano atual:";
+Pergunta do Bispo ano_atual;
+
+Pregação "";
+Pregação "Calculando...";
+Pregação "";
+
+Reza: Calcula dias passados no ano
+Rumo dias_passados = 0;
+
+Julgamento (do Diabo) (mes_atual == 1)
+    Rumo dias_passados = dia_atual;
+Passar a Régua
+
+Julgamento (do Diabo) (mes_atual == 2)
+    Rumo dias_passados = 31 + dia_atual;
+Passar a Régua
+
+Julgamento (do Diabo) (mes_atual == 3)
+    Rumo dias_passados = 59 + dia_atual;
+Passar a Régua
+
+Julgamento (do Diabo) (mes_atual == 4)
+    Rumo dias_passados = 90 + dia_atual;
+Passar a Régua
+
+Julgamento (do Diabo) (mes_atual == 5)
+    Rumo dias_passados = 120 + dia_atual;
+Passar a Régua
+
+Julgamento (do Diabo) (mes_atual == 6)
+    Rumo dias_passados = 151 + dia_atual;
+Passar a Régua
+
+Julgamento (do Diabo) (mes_atual == 7)
+    Rumo dias_passados = 181 + dia_atual;
+Passar a Régua
+
+Julgamento (do Diabo) (mes_atual == 8)
+    Rumo dias_passados = 212 + dia_atual;
+Passar a Régua
+
+Julgamento (do Diabo) (mes_atual == 9)
+    Rumo dias_passados = 243 + dia_atual;
+Passar a Régua
+
+Julgamento (do Diabo) (mes_atual == 10)
+    Rumo dias_passados = 273 + dia_atual;
+Passar a Régua
+
+Julgamento (do Diabo) (mes_atual == 11)
+    Rumo dias_passados = 304 + dia_atual;
+Passar a Régua
+
+Julgamento (do Diabo) (mes_atual == 12)
+    Rumo dias_passados = 334 + dia_atual;
+Passar a Régua
+
+Reza: São João é no dia 175 do ano (24 de junho)
+Julgamento (do Diabo) (dias_passados < 175)
+    Rumo dias_faltam = 175 - dias_passados;
+    Pregação "═══════════════════════════════════";
+    Pregação "⏰ Faltam";
+    Pregação dias_faltam;
+    Pregação "dias para São João!";
+    Julgamento (do Diabo) (dias_faltam == 1)
+        Pregação "🔥 AMANHÃ É SÃO JOÃO! 🔥";
+        Pregação "Já pode ir preparando a bandeirinha!";
+    Passar a Régua
+    Julgamento (do Diabo) (dias_faltam <= 7)
+        Pregação "Tá pertinho demais!";
+    Passar a Régua
+    Julgamento (do Diabo) (dias_faltam <= 30)
+        Pregação "Já pode ir ensaiando a quadrilha!";
+    Passar a Régua
+Passar a Régua
+
+Julgamento (do Diabo) (dias_passados == 175)
+    Pregação "═══════════════════════════════════";
+    Pregação "🎉🎉🎉 HOJE É DIA DE SÃO JOÃO! 🎉🎉🎉";
+    Pregação "🪗 VAI TER FORRÓ A NOITE TODA! 🪗";
+    Pregação "🌽 Come milho, pula fogueira! 🔥";
+    Pregação "Bora pro arrasta-pé, meu povo!";
+Passar a Régua
+
+Julgamento (do Diabo) (dias_passados > 175)
+    Rumo dias_faltam = 365 - dias_passados + 175;
+    Pregação "═══════════════════════════════════";
+    Pregação "São João já passou este ano...";
+    Pregação "Mas calma! Faltam só";
+    Pregação dias_faltam;
+    Pregação "dias pro próximo São João!";
+Passar a Régua
+
+Pregação "═══════════════════════════════════";
+Pregação "";
+Pregação "🎵 Olha pro céu, meu amor 🎵";
+Pregação "🎵 Vê como ele está lindo 🎵";
+Pregação "🎵 Hoje é dia de São João! 🎵";
+
+Não sei, só sei que foi assim
